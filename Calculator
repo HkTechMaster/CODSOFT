@@ -1,0 +1,20 @@
+a = int(input('enter the value of a is :' ))
+b = int(input('enter the value of b is :' ))
+choice = int(input("enter your choice:"))
+if choice==1:
+    sum=a+b
+    print(sum)
+elif choice==2:
+    mul=a*b
+    print(mul)
+elif choice==3:
+    power=a**b
+    print(power)
+elif choice==4:
+    div=a/b
+    print(div)
+elif choice==5:
+    diff=a-b
+    print(diff)
+else:
+    print("wrong choice.. please try again later")
